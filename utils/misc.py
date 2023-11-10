@@ -3,8 +3,6 @@ import argparse
 import contextlib
 
 import torch
-import utils.misc as misc
-import utils.path_config as path_config
 
 
 def args_to_modelname(args: argparse.Namespace) -> str:
