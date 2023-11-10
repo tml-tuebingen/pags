@@ -15,7 +15,22 @@ models/* : contains definitions for different models we are interested in, acces
 utils/*: random housekeeping things like logging, paths, datasets
 
 
-### Acknowledgements
+
+
+## Citation
+
+If you find this code useful in your research, pleas consider to cite our paper.
+
+```
+@inproceedings{srinivas2023pags,
+  author    = {Suraj Srinivas and Sebastian Bordt and Himabindu Lakkaraju},
+  title     = {Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness},
+  booktitle = {NeurIPS},
+  year      = {2023}
+}
+```
+
+## Acknowledgements
 
 - We use the [diffusion models](https://github.com/NVlabs/edm/) from Karas et al. "Elucidating the Design Space of Diffusion-Based Generative Models (EDM)", NeurIPS'22.
 
