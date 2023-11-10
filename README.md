@@ -15,9 +15,15 @@ models/* : contains definitions for different models we are interested in, acces
 utils/*: random housekeeping things like logging, paths, datasets
 
 
+### Acknowledgements
 
 - We use the [diffusion models](https://github.com/NVlabs/edm/) from Karas et al. "Elucidating the Design Space of Diffusion-Based Generative Models (EDM)", NeurIPS'22.
 
 - We train an autoencode on CIFAR-10 using [pythae](https://github.com/NVlabs/edm/) from Chadebec et al. "Pythae: Unifying Generative Autoencoders in Python - A Benchmarking Use Case", NeurIPS'22.
 
+- We use the [robustness library](https://github.com/MadryLab/robustness) and pre-trained models from XYZ.
+
+- We use the [LPIPS](https://github.com/richzhang/PerceptualSimilarity) metric from Zhang et al. "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric", CVPR'18.
+
+   
 - We re-use some code from SURAJ PREVIOUS PAPERS and MANIFOLD PAPER.
