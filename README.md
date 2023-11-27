@@ -32,7 +32,7 @@ Here we briefly describe the structure of the code.
 
 If you find this code useful in your research, pleas consider to cite our paper.
 
-```
+```bib
 @inproceedings{srinivas2023pags,
   author    = {Suraj Srinivas and Sebastian Bordt and Himabindu Lakkaraju},
   title     = {Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness},
