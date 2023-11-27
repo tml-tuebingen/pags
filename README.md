@@ -4,7 +4,7 @@
   <img src="images/landing.png" width="90%" alt="Conceptual Overview"/>
 </p>
 
-This is the code repository for the NeurIPS'23 paper "Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness" by Suraj Srinivas, Sebastian Bordt and Himabindu Lakkaraju.
+This is the code repository for the NeurIPS'23 paper "[Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness](https://openreview.net/forum?id=kgCADZ2ek8)" by Suraj Srinivas*, Sebastian Bordt* and Himabindu Lakkaraju.
 
 The repository contains the code to train regularized models on the different dataset, estimate on- and off-manifold robustness, and produce the various figures in the paper. 
 
@@ -30,7 +30,7 @@ Here we briefly describe the structure of the code.
 
 ## Citation
 
-If you find this code useful in your research, pleas consider to cite our paper.
+If you find this code useful in your research, please consider citing the paper.
 
 ```bib
 @inproceedings{srinivas2023pags,
@@ -41,14 +41,14 @@ If you find this code useful in your research, pleas consider to cite our paper.
 }
 ```
 
+## Related Research 
+- Srinivas & Fleuret, "[Rethinking the Role of Gradient-based Attribution Methods for Model Interpretability](https://github.com/idiap/rethinking-saliency)", ICLR 2021
+- Bordt et al., "[The Manifold Hypothesis for Gradient-Based Explanations](https://github.com/tml-tuebingen/explanations-manifold)", CVPRW 2023
+
+
 ## Acknowledgements
 
 - We use the [diffusion models](https://github.com/NVlabs/edm/) from Karas et al. "Elucidating the Design Space of Diffusion-Based Generative Models (EDM)", NeurIPS'22.
-
 - We use the [robustness library](https://github.com/MadryLab/robustness) and pre-trained models from [repo]([https://github.com/microsoft/robust-models-transfer](https://www.microsoft.com/en-us/research/publication/do-adversarially-robust-imagenet-models-transfer-better/))
-
 - We use the [LPIPS](https://github.com/richzhang/PerceptualSimilarity) metric from Zhang et al. "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric", CVPR'18.
-  
 - We train an autoencoder on CIFAR-10 using [pythae](https://github.com/clementchadebec/benchmark_VAE/) from Chadebec et al. "Pythae: Unifying Generative Autoencoders in Python - A Benchmarking Use Case", NeurIPS'22.
-
-- We use code from SURAJ PREVIOUS PAPERS, and [code](https://github.com/tml-tuebingen/explanations-manifold) from Bordt et al. "The Manifold Hypothesis for Gradient-Based Explanations" (2023).
