@@ -1,4 +1,4 @@
-# Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness (Neurips 2023)
+# Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness (NeurIPS 2023)
 
 <p align="center">
   <img src="images/landing.png" width="90%" alt="Conceptual Overview"/>
