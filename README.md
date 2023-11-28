@@ -49,6 +49,7 @@ If you find this code useful in your research, please consider citing the paper.
 ## Acknowledgements
 
 - We use the [diffusion models](https://github.com/NVlabs/edm/) from Karas et al. "Elucidating the Design Space of Diffusion-Based Generative Models (EDM)", NeurIPS'22.
-- We use the [robustness library](https://github.com/MadryLab/robustness) and pre-trained models from [repo]([https://github.com/microsoft/robust-models-transfer](https://www.microsoft.com/en-us/research/publication/do-adversarially-robust-imagenet-models-transfer-better/))
+- We use the [robustness library](https://github.com/MadryLab/robustness) and pre-trained models from Salman et al. ["Do Adversarially Robust ImageNet
+Models Transfer Better?"](https://proceedings.neurips.cc/paper/2020/file/24357dd085d2c4b1a88a7e0692e60294-Paper.pdf), NeurIPS'20.
 - We use the [LPIPS](https://github.com/richzhang/PerceptualSimilarity) metric from Zhang et al. "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric", CVPR'18.
 - We train an autoencoder on CIFAR-10 using [pythae](https://github.com/clementchadebec/benchmark_VAE/) from Chadebec et al. "Pythae: Unifying Generative Autoencoders in Python - A Benchmarking Use Case", NeurIPS'22.
